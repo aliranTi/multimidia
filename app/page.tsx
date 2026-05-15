@@ -81,7 +81,7 @@ export default function Home() {
   }
 
   return (
-    <div className="flex bg-purple-400 w-100 h-25 mr-auto ml-auto items-center justify-center">
+    <div className="flex bg-purple-400 w-100 h-25 mr-auto ml-auto items-center justify-center rounded-3xl">
 
       <div className="items-center flex flex-col w-50 m-0 mr-auto ml-auto">
         <audio ref={audioRef} src={"audio1.mp3"} controls hidden></audio>
